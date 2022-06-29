@@ -58,3 +58,14 @@ plt.ylabel('Petal Width')
 
 print('The accuracy score of EM: ',sm.accuracy_score(y, y_gmm))
 print('The Confusion matrix of EM: ',sm.confusion_matrix(y, y_gmm))
+
+OUTPUT:
+  
+The accuracy score of K-Mean:  0.24
+The Confusion matrixof K-Mean:  [[ 0 50  0]
+ [48  0  2]
+ [14  0 36]]
+The accuracy score of EM:  0.62
+The Confusion matrix of EM:  [[45  0  5]
+ [ 0 48  2]
+ [ 0 50  0]]
